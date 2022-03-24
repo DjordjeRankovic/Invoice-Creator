@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <title>Invoice Creator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header-section">
+                <h1>Invoice creator</h1>
+                <h2>Thanks for choosing GoodCorp, LLC!</h2>
+            </div>
+            <div class="body-section">
+                <div class="services">
+                    <button id="car-wash" class="task-btn car-wash">Car Wash $10</button>
+                    <button id="mow-lawn" class="task-btn mow-lawn">Mow Lawn $20</button>
+                    <button id="pull-weeds" class="task-btn pull-weeds">Pull Weeds $30</button>
+                </div>
+                <div class="task-total">
+                    <div>
+                        <h3>TASK</h3>
+                    </div>
+                    <div>
+                        <h3>TOTAL</h3>
+                    </div>
+                </div>
+                <div id="tasks" class="tasks"></div>
+                <div class="notes-total">
+                    <div class="notes">
+                        <h3>NOTES</h3>
+                        <input type="text" name="notes" id="notes-input" placeholder="Add notes here!">
+                    </div>
+                    <div class="total">
+                        <h3>TOTAL AMOUNT</h3>
+                        <h1 id="total-price">$0</h1>
+                    </div>
+                </div>
+                <button id="send-btn" class="send-btn"><i class="fa-solid fa-envelope"></i>Send Invoice</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/1b84515f75.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
